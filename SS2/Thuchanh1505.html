@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thuc hanh 1505</title>
+</head>
+<body>
+    <h2>Đăng ký mua xe ô tô</h2>
+    <form action="#" method="post">
+        <label for="name">Họ và tên:</label>
+        <input type="text" name="name" id="name" placeholder="Tên của bạn"> <br />
+        <label for="email">Email</label>
+        <input type="text" name="email" id="" placeholder="Email"> <br />
+        <label for="phone">Số điện thoại</label>
+        <input type="text" name="phone" id="phone" placeholder="Số điện thoại của bạn"> <br />
+        <label for="Xe ô tô muốn mua">Xe ô tô muốn mua</label>
+        <input list="cars" name="car" id="car" placeholder="Mẫu xe">
+        <datalist id="cars">  
+        <option value="Honda"></option>
+        <option value="Toyota"></option>
+        <option value="Nissan"></option>
+        <option value="Suzuki"></option> 
+    </datalist> 
+    <label for="mes">Lời nhắn:</label>
+    <textarea name="mes" id="mes" cols="30" rows="10"></textarea>
+    <input type="text" name="" id="" border="1">
+    <label for="color">Màu xe:</label>
+    <input list="colors" name="color" id="color">
+    <datalist id="colors">
+        <option value="đỏ"></option>
+        <option value="đen"></option>
+        <option value="trắng"></option>
+        <option value="bạc"></option>
+    </datalist>
+    <fieldset>
+        <legend>Phương thức thanh toán</legend>
+        <input type="radio" name="payment" id="payment">
+
+
+    </fieldset>
+    <label for="">Tôi đồng ý với các điều khoản:</label>
+    <input type="checkbox" name="r">
+
+
+
+
+    </form>
+</body>
+</html>
